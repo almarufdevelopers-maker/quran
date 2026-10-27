@@ -1,10 +1,79 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MyQuran</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>MyQuran App: Free Quran App with Translation, Audio &amp; Tafsir</title>
+    <meta name="description" content="Free Quran app for Android: read in 10 languages, listen to 16 reciters, study Tafsir Ibn Kathir offline. No ads, no subscriptions. Download MyQuran App." />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#0f3226" />
+    <link rel="canonical" href="https://myquranapp.top/" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="MyQuran App" />
+    <meta property="og:title" content="MyQuran App: Free Quran App, 10 Languages, 16 Reciters" />
+    <meta property="og:description" content="Read the Quran in your language, listen to 16 reciters and study Tafsir Ibn Kathir offline. No ads." />
+    <meta property="og:url" content="https://myquranapp.top/" />
+    <meta property="og:image" content="https://myquranapp.top/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="MyQuran App: Free Quran App" />
+    <meta name="twitter:description" content="Quran translation in 10 languages, audio by 16 reciters, offline Tafsir Ibn Kathir. No ads." />
+    <meta name="twitter:image" content="https://myquranapp.top/og-image.jpg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+
+    <!-- Google Analytics: replace G-XXXXXXXXXX so download_click events actually record -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date()); gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "MyQuran App",
+          "alternateName": "MyQuran",
+          "operatingSystem": "Android 7.0+",
+          "applicationCategory": "ReferenceApplication",
+          "description": "Free Quran app with translation in 10 languages, audio by 16 reciters, offline Tafsir Ibn Kathir, bookmarks, reflections and a daily reading streak.",
+          "url": "https://myquranapp.top/",
+          "downloadUrl": "https://play.google.com/store/apps/details?id=com.jamia26.myquranapp",
+          "installUrl": "https://play.google.com/store/apps/details?id=com.jamia26.myquranapp",
+          "image": "https://myquranapp.top/og-image.jpg",
+          "inLanguage": ["en","fr","es","id","tr","ur","bn","zh","ru","sv"],
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+          "author": { "@type": "Organization", "name": "almarufdevelopers", "email": "almarufdevelopers@gmail.com" }
+        },
+        {
+          "@type": "WebSite",
+          "name": "MyQuran App",
+          "url": "https://myquranapp.top/"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            { "@type": "Question", "name": "What is MyQuran App?", "acceptedAnswer": { "@type": "Answer", "text": "MyQuran App is a free Quran app for Android with translation in 10 languages, verse-by-verse audio by 16 reciters, offline Tafsir Ibn Kathir, bookmarks, reflections and a daily reading streak." } },
+            { "@type": "Question", "name": "Is MyQuran App free? Are there ads?", "acceptedAnswer": { "@type": "Answer", "text": "MyQuran App is free to download and use, with no ads and no subscriptions. Optional in-app purchases are available if you want to support the developers." } },
+            { "@type": "Question", "name": "Does the Quran app work offline?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. You can read the Quran, Tafsir Ibn Kathir, bookmarks and reflections without internet. Only audio recitation needs a connection." } },
+            { "@type": "Question", "name": "Which languages does the Quran translation support?", "acceptedAnswer": { "@type": "Answer", "text": "English, French, Spanish, Indonesian, Turkish, Urdu, Bengali, Chinese, Russian and Swedish. The app opens in your device language and you can change it in Settings." } },
+            { "@type": "Question", "name": "Which reciters are in the app?", "acceptedAnswer": { "@type": "Answer", "text": "16 reciters including Abdurrahman As-Sudais, Mishary Rashid Alafasy, Abdul Basit (Murattal and Mujawwad), Saad Al-Ghamdi and Saood Ash-Shuraym, with translated recitations in English, Persian and Urdu." } },
+            { "@type": "Question", "name": "Is MyQuran App available on iPhone?", "acceptedAnswer": { "@type": "Answer", "text": "Not yet. MyQuran App is available on Android 7.0 and up through Google Play. The download is about 118 MB because the Quran text and tafsir are stored offline." } }
+          ]
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
